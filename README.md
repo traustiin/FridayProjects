@@ -29,3 +29,16 @@ print("Generated Powerball numbers:"): Prints a message indicating the list of g
 print(powerball_numbers): Prints out the generated Powerball numbers.
 
 Instructions for QuizBowl
+def quiz_bowl():: Defines a function named quiz_bowl() to conduct the quiz.
+score = 0: Initializes a variable score to keep track of correct answers.
+Question 1:
+Asks the user for the answer to the first question and checks if it's correct.
+If the answer is correct ("moon"), increments the score by 1.
+Question 2:
+Presents multiple-choice options for the second question.
+Checks if the user's choice (A, B, or C) matches the correct answer (B for "Stealing my data").
+If the answer is correct, increments the score by 1.
+Similar steps are followed for the remaining questions (3 to 5), with different types of questions (text input and True/False).
+print("\nYour final score is:", score): Displays the final score after all questions have been answered.
+if __name__ == "__main__":: Checks if the script is being run directly.
+quiz_bowl(): Calls the quiz_bowl() function to start the quiz when the script is run.
